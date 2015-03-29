@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Before we start
+title: Introducing RStudio
 minutes: 15
 ---
 
@@ -10,15 +10,18 @@ knitr::opts_chunk$set(results='hide', fig.path='img/r-lesson-')
 
 > ## Learning Objectives
 >
-> * Articulating motivations for this lesson
 > * Introduce participants to the RStudio interface
-> * Set up participants to have a working directory with a `data/` folder inside
+> * Set up participants to work with files, scripts and output figures 
 > * Introduce R syntax
+> * Introduce good R style
 > * Point to relevant information on how to get help, and understand how to ask well formulated questions
 
-# Demonstration of what we will learn to do
+# Working with RStudio
 
-# Before we get started
+For this workshop you installed R and RStudio. RStudio is an interface that makes it nicer 
+to work with the R programming language. 
+
+# Introducing RStudio
 
 * Start RStudio (presentation of RStudio -below- should happen here)
 * Under the `File` menu, click on `New project`, choose `New directory`, then
@@ -223,6 +226,11 @@ help.search("kruskal")
 If you can't find what you are looking for, you can use the
 [rdocumention.org](http://www.rdocumentation.org) website that search through
 the help files across all packages available.
+
+### Style
+
+[http://adv-r.had.co.nz/Style.html](R Style Guide)
+
 
 ### I am stuck... I get an error message that I don't understand
 
