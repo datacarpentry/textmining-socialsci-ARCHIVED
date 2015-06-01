@@ -49,7 +49,7 @@ ggplot(my_highfreqs_values_df, aes(reorder(word, -freq), freq)) +
   geom_bar(stat = "identity") +
   theme_minimal() +
   xlab("high frequency words") +
-  ylab("freqeuncy") + 
+  ylab("frequency") + 
   theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust = 0.2)) 
 ```
 
